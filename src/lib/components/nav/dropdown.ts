@@ -1,4 +1,4 @@
-import { writable } from "svelte/store";
+import { writable } from 'svelte/store';
 
 // Needed to apply pos-fixed on root element when nav dropdown is open to prevent scrolling
 const { subscribe, set, update } = writable(false);

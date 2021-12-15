@@ -24,15 +24,15 @@
 		animation: drop-in 0.5s ease-in-out;
 	}
 
-  @keyframes drop-in {
-    0% {
-      opacity: 0;
-    }
+	@keyframes drop-in {
+		0% {
+			opacity: 0;
+		}
 
-    100% {
-      opacity: 1;
-    }
-  }
+		100% {
+			opacity: 1;
+		}
+	}
 
 	.drop-closed {
 		visibility: hidden;
