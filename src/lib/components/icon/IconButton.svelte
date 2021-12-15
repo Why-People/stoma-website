@@ -5,18 +5,6 @@
   export let icon: SvelteComponent;
 </script>
 
-<button on:click>
+<button class="p-1 hover:bg-hover transition ease-linear duration-300 rounded" on:click>
   <Icon icon={icon}></Icon>
 </button>
-
-<style>
-  button {
-    padding: 0.25rem;
-  }
-
-  button:hover {
-    background-color: #d8d7d76b;
-    border-radius: 0.5rem;
-    transition: all 0.3s ease;
-  }
-</style>

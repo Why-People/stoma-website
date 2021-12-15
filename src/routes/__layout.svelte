@@ -4,16 +4,19 @@
 </script>
 
 <Navbar />
-<main class="layout-navigation">
-  <div class="content">
-    <slot />
+<main class="flex flex-col justify-center items-center">
+  <div class="layout-container">
+    <div class="flex flex-col w-full pt-16 pb-16 content-padding">
+      <slot />
+    </div>
   </div>
 </main>
 
 <style>
-  .content {
-    padding-top: 4rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+  @media screen and (max-width: 768px) {
+    .content-padding {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
   }
 </style>

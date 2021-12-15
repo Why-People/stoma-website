@@ -18,7 +18,13 @@
 }
 
 .layout-container {
-  width: 1280px;
+	width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+	.layout-container {
+		width: 1280px;
+	}
 }
 
 @tailwind components;

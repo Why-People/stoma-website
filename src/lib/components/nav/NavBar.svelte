@@ -23,26 +23,24 @@
       <div class="flex flex-row items-center justify-between">
         <div class="flex flex-row items-center justify-start gap-x-4">
           <Icon icon={IoIosPlayCircle} />
-          <p class="text-xl mr-6">Stoma</p>
-          {#if !isMobile}
+          <p class="text-xl mr-12">Stoma</p>
+          <div class="flex flex-row gap-x-12 nav-links">
             <NavLink href="/">Home</NavLink>
             <NavLink href="/privacy">Privacy Policy</NavLink>
-            <NavLink href="/contact">Contact</NavLink>
-          {/if}
-        </div>
-        {#if isMobile}
-          <div class="drop-down-icon">
-            <IconButton 
-              icon={!$isNavDropDownOpen ? FaBars : FaTimes}
-              on:click={isNavDropDownOpen.toggleDropDown} 
-            />
+            <NavLink href="/contact">Contact Us</NavLink>
           </div>
-        {/if}
+        </div>
+        <div class="drop-down-icon">
+          <IconButton 
+            icon={!$isNavDropDownOpen ? FaBars : FaTimes}
+            on:click={isNavDropDownOpen.toggleDropDown} 
+          />
+        </div>
       </div>
       <NavDropDown isOpen={showDropDownContents}>
         <NavDropDownItem href="/" title="Home" icon={FaHome} />
-        <NavDropDownItem href="/privacy" title="Privacy Policy" icon={FaEnvelopeOpenText} />
-        <NavDropDownItem href="/contact" title="Contact" icon={FaLock} />
+        <NavDropDownItem href="/privacy" title="Privacy Policy" icon={FaLock} />
+        <NavDropDownItem href="/contact" title="Contact Us" icon={FaEnvelopeOpenText} />
       </NavDropDown>
     </div>
   </div>
@@ -55,11 +53,23 @@
     background-color: white;
   }
 
-  .drop-down-icon {
-    transition: transform 0.25s ease-in-out;
+  @media screen and (min-width: 769px) {
+    .drop-down-icon {
+      display: none;
+    }
   }
 
-  .drop-down-icon:active {
-    transform: rotate(90deg);
+  @media screen and (max-width: 768px) {
+    .drop-down-icon {
+      transition: transform 0.25s ease-in-out;
+    }
+
+    .drop-down-icon:active {
+      transform: rotate(90deg);
+    }
+
+    .nav-links {
+      display: none;
+    }
   }
 </style>
