@@ -21,13 +21,19 @@
   <div class="layout-container">
     <div class="flex flex-col w-full">
       <div class="flex flex-row items-center justify-between">
-        <div class="flex flex-row items-center justify-start gap-x-4">
+        <div class="flex flex-row items-center justify-start">
           <Icon icon={IoIosPlayCircle} />
-          <p class="text-xl mr-12">Stoma</p>
-          <div class="flex flex-row gap-x-12 nav-links">
-            <NavLink href="/">Home</NavLink>
-            <NavLink href="/privacy">Privacy Policy</NavLink>
-            <NavLink href="/contact">Contact Us</NavLink>
+          <h1 class="text-xl font-raleway pl-4 mr-12">Stoma</h1>
+          <div class="flex flex-row nav-links">
+            <div class="mx-12">
+              <NavLink href="/">Home</NavLink>
+            </div>
+            <div class="mx-12">
+              <NavLink href="/privacy">Privacy Policy</NavLink>
+            </div>
+            <div class="mx-12">
+              <NavLink href="/contact">Contact Us</NavLink>
+            </div>
           </div>
         </div>
         <div class="drop-down-icon">

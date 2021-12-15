@@ -13,6 +13,9 @@ module.exports = {
 				'3xl': { 'min': '1536px' },
 			}
 		},
+		fontFamily: {
+			"raleway": ["raleway", "sans-serif"],
+		},
 		colors: {
 			"primary": "#e53e3e",
 			"secondary": "#726e6e",

@@ -1,4 +1,6 @@
 /* Write your global styles here, in PostCSS syntax */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap');
 
 @tailwind base;
 
@@ -21,7 +23,7 @@
 	width: 100%;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1280px) {
 	.layout-container {
 		width: 1280px;
 	}

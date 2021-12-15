@@ -13,7 +13,7 @@
 </main>
 
 <style>
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1280px) {
     .content-padding {
       padding-left: 0.5rem;
       padding-right: 0.5rem;

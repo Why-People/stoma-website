@@ -1,5 +1,5 @@
 <section>
-  <h1>Terms & Conditions</h1>
+  <h1 class="font-bold">Terms & Conditions</h1>
   <span>
     By downloading or using the app, these terms will automatically apply to you – you should make sure therefore 
     that you read them carefully before using the app. You’re not allowed to copy or modify the app, any part of 
@@ -67,7 +67,7 @@
 </section>
 
 <section>
-  <h1>Changes to This Terms and Conditions</h1>
+  <h1 class="font-bold">Changes to This Terms and Conditions</h1>
   <span>
     We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically 
     for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page.
@@ -80,7 +80,7 @@
 </section>
 
 <section>
-  <h1>Contact Us</h1>
+  <h1 class="font-bold">Contact Us</h1>
   <span>
     If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at 
     matthewha853@gmail.com.
