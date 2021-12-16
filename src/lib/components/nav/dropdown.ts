@@ -8,8 +8,8 @@ const openDropDown = () => set(true);
 const closeDropDown = () => set(false);
 
 export const isNavDropDownOpen = {
-	subscribe: subscribe,
-	toggleDropDown: toggleDropDown,
-	openDropDown: openDropDown,
-	closeDropDown: closeDropDown
+  subscribe: subscribe,
+  toggleDropDown: toggleDropDown,
+  openDropDown: openDropDown,
+  closeDropDown: closeDropDown
 };

@@ -10,22 +10,22 @@
 @tailwind utilities;
 
 @layer base {
-	h1,
-	h2,
-	h3,
-	h4 {
-		@apply font-bold;
-	}
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-bold;
+  }
 }
 
 .layout-container {
-	width: 100%;
+  width: 100%;
 }
 
 @media screen and (min-width: 1280px) {
-	.layout-container {
-		width: 1280px;
-	}
+  .layout-container {
+    width: 1280px;
+  }
 }
 
 @tailwind components;
