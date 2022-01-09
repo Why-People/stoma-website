@@ -7,10 +7,11 @@
       food search problem, and then you'll be able to satisfy your hunger.
     </p>
     <a
-      class="mt-4 google-play-btn"
+      class="mt-4"
       href="https://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
     >
       <img
+        class="google-play-btn"
         alt="Get it on Google Play"
         src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
       />

@@ -4,6 +4,11 @@
   import '../app.css';
 </script>
 
+<svelte:head>
+  <title>Stoma</title>
+  <meta name="description" content="End Your Arguments and Find a Place to Eat" />
+</svelte:head>
+
 <Navbar />
 <main class="flex flex-col justify-center items-center">
   <div class="layout-container">
