@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Footer from '$lib/components/Footer.svelte';
   import Navbar from '$lib/components/nav/Navbar.svelte';
   import '../app.css';
 </script>
@@ -11,6 +12,7 @@
     </div>
   </div>
 </main>
+<Footer />
 
 <style>
   @media screen and (max-width: 1280px) {
